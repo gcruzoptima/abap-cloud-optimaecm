@@ -16,6 +16,8 @@ ENDCLASS.
 CLASS zcl_gc_hello_cloud_world IMPLEMENTATION.
   METHOD if_oo_adt_classrun~main.
     out->write( 'Hello Cloud World' ).
+
+    out->write( 'Super new change' ).
   ENDMETHOD.
 
 ENDCLASS.
